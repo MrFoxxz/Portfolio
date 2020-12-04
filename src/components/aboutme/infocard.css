@@ -1,0 +1,56 @@
+.modal-body{
+    padding: 1%;
+}
+
+.modal-dialog {
+    max-width: 70%;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
+.modal-content{
+    background-color: #f57629;
+}
+
+*, ::after, ::before {
+    box-sizing: none;
+}
+
+.card-body {
+    background-color: #f57629;
+}
+
+.text-muted {
+    color: #7b3a14  !important;
+}
+
+.card-header {
+    background-color: #ea691b;
+}
+
+.card{
+    border: none;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #d05e19;
+    border-color: #d05e19;
+    box-shadow: #ea691b;
+    box-shadow: 0 0 0 .2rem  #ea691b;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ea691b;
+    border-color: #ea691b;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    transition: .7s;
+    background-color:#d05e19;
+    border-color: #d05e19;;
+}

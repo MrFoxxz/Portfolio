@@ -1,0 +1,28 @@
+.portfolio{  /* Browser */
+    display: grid;
+    grid-template-columns: repeat( 3,auto);
+}
+.infobox{
+    margin: 1%;
+    width: -moz-available;
+}
+@media (min-width: 800px) and (max-width:1023px) {  /* Tablets/ MiniLaptops*/
+    .portfolio{
+        display: grid;
+        grid-template-columns: repeat( 3,auto);
+    }
+}
+
+@media (min-width: 600px) and (max-width:799px) {  /* Tablets */
+    .portfolio{
+        display: grid;
+        grid-template-columns: repeat( 2,auto);
+    }
+}
+
+@media (max-width: 599px) {  /* tlf */
+    .portfolio{
+        display: grid;
+        grid-template-columns: repeat( 1,auto);
+    }
+}

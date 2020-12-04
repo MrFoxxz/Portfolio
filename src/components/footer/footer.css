@@ -1,0 +1,14 @@
+
+.footerI{
+    display: block;
+    width: 100%;
+    position: absolute;
+}
+.foxfoot{
+    width: 85px;
+    margin-right: 25px;
+    height: auto;
+}
+.toolsfooter {
+    display: inline-block;
+}

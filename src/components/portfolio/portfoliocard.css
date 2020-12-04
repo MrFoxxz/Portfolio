@@ -1,0 +1,9 @@
+.card{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-img, .card-img-top{
+    border: 1px solid rgb(205, 92, 24);
+}

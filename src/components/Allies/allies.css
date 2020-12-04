@@ -1,0 +1,70 @@
+.allies{
+    display: grid;
+    grid-template-columns: repeat( 4,auto);   
+    margin: 5px;
+    justify-content: center
+    
+}
+
+.text {
+    font-size:28px;
+    font-weight:bold;
+    color:#ffff;
+    text-transform:uppercase;
+  }
+
+.tittle{
+  animation-name: parpadeo;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/* @font-face{
+    font-family: 8bit ;
+    src: url(../../../public/fuentes/bits.ttf);
+  }
+ */
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.5; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.5; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.5; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.5; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.5; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.5; }
+}
+
+@media (min-width: 800px) and (max-width:1023px) {  /* Tablets/ MiniLaptops*/
+    .allies{
+        display: grid;
+        grid-template-columns: repeat( 3,auto);
+    }
+}
+
+@media (min-width: 600px) and (max-width:799px) {  /* Tablets */
+    .allies{
+        display: grid;
+        grid-template-columns: repeat( 2,auto);
+    }
+}
+
+@media (max-width: 599px) {  /* tlf */
+    .allies{
+        display: grid;
+        grid-template-columns: repeat( 1,auto);
+    }
+}

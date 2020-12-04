@@ -1,0 +1,61 @@
+.menu{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.bubble{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.bubble:hover{ 
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;   
+  }
+  
+@keyframes pulse {
+0% { transform: scale(1); }
+50% { transform: scale(1.1);}
+100% { transform: scale(1); }
+}
+
+
+@media (min-width: 800px) and (max-width:1023px) {  /* Tablets/ MiniLaptops*/
+    .menu{
+        display: grid;
+        grid-template-columns: repeat( 3,auto);
+    }
+    .bubble{
+        margin: 5%;
+    }
+}
+
+@media (min-width: 600px) and (max-width:799px) {  /* Tablets */
+    .menu{
+        display: grid;
+        grid-template-columns: repeat( 2,auto);
+    }
+    .bubble{
+        margin: 5%;
+    }
+}
+
+@media (max-width: 599px) {  /* tlf */
+    .menu{
+        display: grid;
+        grid-template-columns: repeat( 1,auto);
+    }
+    .bubble{
+        margin: 5%;
+    }
+}
