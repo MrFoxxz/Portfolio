@@ -133,10 +133,10 @@ body{
         display: initial;
     }
     #menu:target>.menu-item:nth-child(7) {
-        transform: rotate(140deg) translateY(-145px) rotate(220deg);
+        transform: rotate(150deg) translateY(-162px) rotate(210deg);
     }
     #menu:target>.menu-item:nth-child(5) {
-        transform: rotate(-150deg) translateY(-130px) rotate(150deg);
+        transform: rotate(-160deg) translateY(-150px) rotate(160deg);
         transition-delay: 0.3s;
     }
   }
@@ -151,10 +151,10 @@ body{
         transition-delay: 0.2s;
     }
     #menu:target>.menu-item:nth-child(7) {
-        transform: rotate(140deg) translateY(-130px) rotate(220deg);
+        transform: rotate(114deg) translateY(-187px) rotate(246deg);
     }
     #menu:target>.menu-item:nth-child(5) {
-        transform: rotate(-150deg) translateY(-115px) rotate(150deg);
+        transform: rotate(-122deg) translateY(-150px) rotate(122deg);
         transition-delay: 0.3s;
     }
   }
