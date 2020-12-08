@@ -78,7 +78,7 @@ export const Allies = () => {
         tittle="M. Gabriela"
         link="https://www.linkedin.com/in/maria-jc-02571414a/"
         sub="Traductora / Tester"
-        img={Magsgit }>
+        img={Mags}>
         </Char>
        
       </div>
