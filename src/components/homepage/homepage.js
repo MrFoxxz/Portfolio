@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from 'react-router-dom';
 import "./homepage.css";
+import Fox from "../../img/FoxLogo.png"
+import GitHub from "../../Logos/Github.png"
 
 export const Homepage = () => {
   return (
@@ -14,7 +16,7 @@ export const Homepage = () => {
             <img align="left" id="miniimg" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
             <img align="left" id="miniimg" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />
             <img align="left" id="miniimg" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-            <img align="left" id="miniimg" alt="GitHub" width="26px" src="Logos/Github.png" />
+            <img align="left" id="miniimg" alt="GitHub" width="26px" src={GitHub} />
             <img align="left" id="miniimg" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
         </div>
         
@@ -22,10 +24,10 @@ export const Homepage = () => {
             <ul id="menu">
             
                 <a class="menu-button icon-plus" href="#menu" title="Show navigation">
-                    <img className="foximg" src="img/vippng.com-fox-face-png-1705748.png"></img>
+                    <img className="foximg" src={Fox}></img>
                 </a>
                 <a class="menu-button icon-minus" href="#0" title="Hide navigation">
-                    <img className="foximg" src="img/vippng.com-fox-face-png-1705748.png"></img>
+                    <img className="foximg" src={Fox}></img>
                 </a>
                 <li class="menu-item clickme">
                     <h4 class="click">Click_Me</h4>

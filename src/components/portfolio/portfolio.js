@@ -2,7 +2,11 @@ import React from "react"
 import NavBar from "../navbar/navbar"
 import Footer from "../footer/footer"
 import PCard from "./portfoliocard"
-import "./portfolio.css";
+import "./portfolio.css"
+import Protectora from "../../img/Protectora.JPG"
+import MiniMercado from "../../img/MiniMercado.JPG"
+import Wines from "../../img/7Wines.JPG"
+import MrFoxPage from "../../img/MrFoxPage.JPG"
 
 export const Portfolio = () => {
   return (
@@ -30,28 +34,28 @@ export const Portfolio = () => {
                 <div className="portfolio">
                   <PCard 
                     tittle="Protectora Sarmiento"
-                    img="img/Protectora.JPG"
+                    img={Protectora}
                     sub="React, Redux, FireBase ,HTML ,CSS"
                     link="https://github.com/ail3ngrimaldi/protectora-animales"
                     content="Pagina para adopcion voluntariado y presentacion de mascotas. Proyecto final, entregado para la aprobación del curso de Desarrollador Full Stack"
                   ></PCard>
                   <PCard 
                     tittle="MiniMercado"
-                    img="img/MiniMercado.JPG"
+                    img={MiniMercado}
                     sub="React, Redux, HTML, CSS"
                     link="https://github.com/MrFoxxz/MiniMercado"
                     content="Pequeño y sencillo e-commerce. Proyecto realizado con la Api de mercado libre."
                   ></PCard>
                   <PCard 
                     tittle="7winnes"
-                    img="img/7Wines.JPG"
+                    img={Wines}
                     sub="React ,HTML ,CSS, SQL"
                     link="https://github.com/MrFoxxz/Ecommerce7wines"
                     content="E-commerce crentrado en venta de vinos y bebidas alcoholica, creado en equipo como proyecto para el curso Henry."
                   ></PCard>
                   <PCard 
                     tittle="Mr.Fox Page"
-                    img="img/MrFoxPage.JPG"
+                    img={MrFoxPage}
                     sub="React ,HTML ,CSS"
                     link="https://github.com/MrFoxxz"
                     content="Pagina creada como portafolio virtual de Miguel Angel Jaimes."

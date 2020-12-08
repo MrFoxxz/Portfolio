@@ -1,11 +1,13 @@
 import React from "react"
 import "./footer.css";
+import Vegvisir from "../../img/Vegvisir.png"
+import Github from "../../Logos/Github.png"
 
 export const Footer = () => {
   return (
     <div className="footer">
       <div className="footerI">
-        <img className="foxfoot" src="img/Vegvisir.png"></img>
+        <img className="foxfoot" src={Vegvisir}></img>
         <h2>Encuentrame en:</h2>
         
       <div >
@@ -39,7 +41,7 @@ export const Footer = () => {
             <img align="left" id="miniimg" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
             <img align="left" id="miniimg" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />
             <img align="left" id="miniimg" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-            <img align="left" id="miniimg" alt="GitHub" width="26px" src="Logos/Github.png" />
+            <img align="left" id="miniimg" alt="GitHub" width="26px" src={Github} />
             <img align="left" id="miniimg" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
         </div>
       </div>

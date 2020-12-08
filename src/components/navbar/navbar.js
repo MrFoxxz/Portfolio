@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from 'react-router-dom';
 import "./navbar.css";
+import Fox from "../../img/FoxLogo.png"
 
 export const NavBar = () => {
   return (
@@ -10,7 +11,7 @@ export const NavBar = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <Link  to="/">
-          <img className="foxnav" src="img/vippng.com-fox-face-png-1705748.png"></img>
+          <img className="foxnav" src={Fox}></img>
         </Link>
 
         <div class="collapse navbar-collapse" id="navbarNav">
