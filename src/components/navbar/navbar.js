@@ -10,14 +10,14 @@ export const NavBar = () => {
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <Link  to="/">
+        <Link  to="/Portfolio">
           <img className="foxnav" src={Fox}></img>
         </Link>
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <Link  to="/Portfolio">
+              <Link  to="/Gallery">
                 <a class="nav-link">Portfolio</a>
               </Link>
             </li>

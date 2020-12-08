@@ -34,7 +34,7 @@ export const Homepage = () => {
                     <h4 class="touch">Touch_Me</h4>
                 </li>
                 <li class="menu-item">
-                    <Link  to="/Portfolio">
+                    <Link  to="/Gallery">
                         <a class="nav-link">Portfolio</a>
                     </Link>
                 </li>
