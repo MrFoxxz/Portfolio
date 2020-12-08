@@ -1,22 +1,42 @@
 {
   "files": {
     "main.css": "/static/css/main.be71726e.chunk.css",
-    "main.js": "/static/js/main.9b2ae68d.chunk.js",
-    "main.js.map": "/static/js/main.9b2ae68d.chunk.js.map",
+    "main.js": "/static/js/main.c80c3fd3.chunk.js",
+    "main.js.map": "/static/js/main.c80c3fd3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f6ddfc4a.js",
     "runtime-main.js.map": "/static/js/runtime-main.f6ddfc4a.js.map",
-    "static/js/2.c0a0b2c1.chunk.js": "/static/js/2.c0a0b2c1.chunk.js",
-    "static/js/2.c0a0b2c1.chunk.js.map": "/static/js/2.c0a0b2c1.chunk.js.map",
+    "static/js/2.4eeb9340.chunk.js": "/static/js/2.4eeb9340.chunk.js",
+    "static/js/2.4eeb9340.chunk.js.map": "/static/js/2.4eeb9340.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4aa382c0a5d738b0c1eb828e2a9ec46a.js": "/precache-manifest.4aa382c0a5d738b0c1eb828e2a9ec46a.js",
+    "precache-manifest.98d2483029b72cce39f03269c1a5d606.js": "/precache-manifest.98d2483029b72cce39f03269c1a5d606.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.be71726e.chunk.css.map": "/static/css/main.be71726e.chunk.css.map",
-    "static/js/2.c0a0b2c1.chunk.js.LICENSE.txt": "/static/js/2.c0a0b2c1.chunk.js.LICENSE.txt"
+    "static/js/2.4eeb9340.chunk.js.LICENSE.txt": "/static/js/2.4eeb9340.chunk.js.LICENSE.txt",
+    "static/media/7Wines.JPG": "/static/media/7Wines.81e972b7.JPG",
+    "static/media/Ailen.jpg": "/static/media/Ailen.6063c5bf.jpg",
+    "static/media/Andres.JPG": "/static/media/Andres.724a29de.JPG",
+    "static/media/Angel.jpg": "/static/media/Angel.874ad76f.jpg",
+    "static/media/FoxLogo.png": "/static/media/FoxLogo.b620183f.png",
+    "static/media/Franco.jpg": "/static/media/Franco.48f782ba.jpg",
+    "static/media/Github.png": "/static/media/Github.e50bcc66.png",
+    "static/media/Instagram.png": "/static/media/Instagram.7ca77112.png",
+    "static/media/Jenni.jpg": "/static/media/Jenni.6f8cf7e4.jpg",
+    "static/media/Jota.jpg": "/static/media/Jota.9c716eaa.jpg",
+    "static/media/Linkedin.png": "/static/media/Linkedin.51620149.png",
+    "static/media/Luis.JPG": "/static/media/Luis.d4a7136a.JPG",
+    "static/media/Mags.JPG": "/static/media/Mags.8e7fe90d.JPG",
+    "static/media/Miguel.jpg": "/static/media/Miguel.9095655e.jpg",
+    "static/media/MiniMercado.JPG": "/static/media/MiniMercado.58084241.JPG",
+    "static/media/MrFoxPage.JPG": "/static/media/MrFoxPage.6d1e62f2.JPG",
+    "static/media/Protectora.JPG": "/static/media/Protectora.bfe61459.JPG",
+    "static/media/Valeria.jpg": "/static/media/Valeria.0c8b4ab0.jpg",
+    "static/media/Vegvisir.png": "/static/media/Vegvisir.9af238ab.png",
+    "static/media/WhatsApp.png": "/static/media/WhatsApp.0785997f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f6ddfc4a.js",
-    "static/js/2.c0a0b2c1.chunk.js",
+    "static/js/2.4eeb9340.chunk.js",
     "static/css/main.be71726e.chunk.css",
-    "static/js/main.9b2ae68d.chunk.js"
+    "static/js/main.c80c3fd3.chunk.js"
   ]
 }
